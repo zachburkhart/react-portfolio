@@ -1,14 +1,22 @@
 import React from "react";
 
 function Navigation(props) {
-    const pages = ["About", "Portfolio", "Resume", "Contact"];
+    const { changePage } = props;
     return (
-        <div className="pages">
+        <nav>
             <ul>
-                {pages.map((page))} => (
-                    <li>{props.thisPage === page </li>
-                )
+                <li>
+                    <span onClick={() => changePage(About)}>About</span>
+                </li>
+                <li>
+                    <span onClick={() => changePage(Contact)}>Contact</span>
+                </li>
+                <li>
+                    <span onClick={() => changePage(Portfolio)}>Portfolio</span>
+                </li>
             </ul>
-        </div>
+        </nav>
     )
 }
+
+export default Navigation;
