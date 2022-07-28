@@ -49,7 +49,7 @@ header h1 {
 /* hero */
 .hero {
   background: var(--white);
-  background-image: url("../assets/cover.jpg");
+  background-image: url("./assets/cover.jpg");
   background-size: cover;
   background-position: center;
   min-height: 30vh;
@@ -124,13 +124,13 @@ section div {
 }
 
 .run-buddy {
-  background-image: url("../assets/run-buddy.jpg");
+  background-image: url("./assets/run-buddy.jpg");
 }
 
 .horiseon {
-  background-image: url("../assets/horiseon.jpg");
+  background-image: url("./assets/horiseon.jpg");
 }
 
 .cocktail-music {
-  background-image: url("../assets/cocktail-music.jpg");
+  background-image: url("./assets/cocktail-music.jpg");
 }

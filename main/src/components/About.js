@@ -1,5 +1,6 @@
 import React from 'react';
-import coverImage from '../../assets/cover.jpg';
+import coverImage from './assets/cover.jpg';
+
 function About() {
   return (
     <section className="my-5">

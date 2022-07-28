@@ -6,13 +6,13 @@ function Navigation(props) {
         <nav>
             <ul>
                 <li>
-                    <span onClick={() => changePage(About)}>About</span>
+                    <span onClick={() => changePage("About")}>About</span>
                 </li>
                 <li>
-                    <span onClick={() => changePage(Contact)}>Contact</span>
+                    <span onClick={() => changePage("Contact")}>Contact</span>
                 </li>
                 <li>
-                    <span onClick={() => changePage(Portfolio)}>Portfolio</span>
+                    <span onClick={() => changePage("Portfolio")}>Portfolio</span>
                 </li>
             </ul>
         </nav>
