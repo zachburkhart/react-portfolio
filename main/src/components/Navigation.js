@@ -1,8 +1,14 @@
-import React from "react";
+// import React from "react";
 
-function nav(props) {
-    const pages = ["About", "Resume", "Contact"];
-    return (
-
-    )
-}
+// function Navigation(props) {
+//     const pages = ["About", "Portfolio", "Resume", "Contact"];
+//     return (
+//         <div className="pages">
+//             <ul>
+//                 {pages.map((page))} => (
+//                     <li>{props.thisPage === page </li>
+//                 )
+//             </ul>
+//         </div>
+//     )
+// }
